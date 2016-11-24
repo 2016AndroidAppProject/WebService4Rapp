@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rapp
 
 How to start the rapp application
@@ -11,3 +12,6 @@ Health Check
 ---
 
 To see your applications health enter url `http://localhost:8081/healthcheck`
+=======
+# WebService4Rapp
+>>>>>>> 5f28a49e102b349ea4212bec240fba82d082b543
