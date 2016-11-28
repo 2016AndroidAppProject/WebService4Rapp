@@ -30,11 +30,14 @@ public class rappApplication extends Application<rappConfiguration> {
     }
 
     @Override
-    public void run(final rappConfiguration configuration,
+    public void run(final rappConfiguration c,
                     final Environment environment) {
         // TODO: implement application
     	LOGGER.info("Method App#run() called");
-    	System.out.println( "Hello world, says Rapp Webservice!" );
+    	for (int i=0; i < c.getMessageRepetitions(); i++) {
+    		System.out.println(c.getMessage());
+    		System.out.println(c.getAdditionalMessage());
+    	}
     }
 
 }
